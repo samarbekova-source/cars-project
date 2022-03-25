@@ -1,13 +1,20 @@
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
-import MainPage from "./MainPage/MainPage";
+
+
+
+import ContextProvider from "./contexts/contexts";
+import MainRoutes from "./MainRoutes";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainPage />
-      <Footer />
+
+     
+
+      <ContextProvider>
+        <MainRoutes />
+      </ContextProvider>
+
     </div>
   );
 }
