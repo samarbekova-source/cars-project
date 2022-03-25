@@ -32,13 +32,17 @@ const ContextProvider = ({ children }) => {
     await axios.post(API, newAuto);
     getAutoData();
   };
-
+  const deleteCar = async (id) => {
+    await axios.delete(`${API}/${id}`);
+    getAutoData();
+  };
   return (
     <contexts.Provider
       value={{
         auto: state.auto,
         getAutoData,
         addCars,
+        deleteCar,
       }}
     >
       {children}
