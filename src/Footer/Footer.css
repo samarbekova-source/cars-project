@@ -1,0 +1,16 @@
+.row h3 {
+  font-size: 17px;
+}
+
+.col-sm {
+  font-size: 17px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}

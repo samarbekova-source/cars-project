@@ -1,0 +1,21 @@
+.main {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://shop.mercedes-benz.com/en-gb/connect/public/img/stage-mq4-6.5ba6cf82.jpg");
+}
+
+.description {
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.description p {
+  font-size: 20px;
+}
