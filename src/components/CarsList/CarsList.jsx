@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { contexts } from "../../contexts/contexts";
 
 const CarsList = () => {
-  const { auto, getAutoData } = useContext(contexts);
+  const { auto, getAutoData, deleteCar } = useContext(contexts);
   useEffect(() => {
     getAutoData();
   }, []);
@@ -17,6 +17,7 @@ const CarsList = () => {
             onChange={() => changeStatus(item.id)}
           /> */}
           {item.task}
+          <button onClick={() => deleteCar(item.id)}>Delete</button>
         </li>
       ))}
     </ul>
