@@ -1,8 +1,9 @@
 import React, { useContext, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { contexts } from "../../contexts/contexts";
 
 const CarsList = () => {
-  const { auto, getAutoData, deleteCar } = useContext(contexts);
+  const { auto, getAutoData, deleteCar, editCars } = useContext(contexts);
   useEffect(() => {
     getAutoData();
   }, []);
@@ -18,6 +19,9 @@ const CarsList = () => {
           /> */}
           {item.task}
           <button onClick={() => deleteCar(item.id)}>Delete</button>
+          <Link to="/edit">
+            <button onClick={() => editCars(item.id)}>Edit</button>
+          </Link>
         </li>
       ))}
     </ul>
