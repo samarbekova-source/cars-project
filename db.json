@@ -1,16 +1,22 @@
 {
   "cars": [
     {
-      "task": "Uluk",
-      "id": 3
+      "task": "Mersedes Benz C class",
+      "image": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/c-class/coupe-c205/amg/equipment/_jcr_content/swipeableteaserbox/par/swipeableteaser/asset.MQ6.12.20200129171643.jpeg",
+      "desc": "Купе С-Класса Mercedes-AMG сочетает в себе вдохновляющий дизайн, развитый спортивный характер и новейшую технику. Доведенная до совершенства динамика движения и экспрессивный дизайн подчеркивают атлетический характер автомобиля.",
+      "id": 1
     },
     {
-      "task": "sdfsdf",
+      "task": "Mersedes Benz S class",
+      "image": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/s-class/mercedes-maybach-z223/explore/safety-teaser/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide/image.MQ4.7.20211129150531.jpeg",
+      "desc": "Новый Mercedes-Maybach S-Класса – воплощение ультимативной роскоши. Превосходные материалы, высочайшее качество обработки деталей, непревзойденный комфорт, инновационные технологии и талантливый личный помощник – интеллектуальная информационно-развлекательная система MBUX – откроют для вас новую эру владения роскошным автомобилем класса люкс.",
+      "id": 2
+    },
+    {
+      "task": "",
+      "image": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/c-class/saloon-w206/main/personalization/_jcr_content/swipeableteaserbox/par/swipeableteaser_2e14/asset.MQ4.12.20210928075354.jpeg",
+      "desc": "Еще никогда С-Класс не был в такой прекрасной форме: экстерьер нового седана обновлен и дополнен спортивными элементами дизайна. Легендарная концепция «чувственной лаконичности» ощущается в каждой детали.",
       "id": 4
-    },
-    {
-      "task": "asdasd",
-      "id": 5
     }
   ]
 }

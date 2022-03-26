@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { contexts } from "../../contexts/contexts";
+import { styled, Box } from "@mui/system";
 
 const EditCars = () => {
   const { autoEdit, saveCar } = useContext(contexts);
-  //   const [newEditCar, setNewEditCar] = useState(autoEdit);
   const [newEditCar, setNewEditCar] = useState(autoEdit);
   const navigate = useNavigate();
   useEffect(() => setNewEditCar(autoEdit), [autoEdit]);
