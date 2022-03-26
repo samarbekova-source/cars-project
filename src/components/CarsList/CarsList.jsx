@@ -11,6 +11,7 @@ const CarsList = () => {
   return (
     <ul>
       {auto.map((item) => (
+        <li key={item.id}>{item.task}</li>
         <li key={item.id}>
           {/* <input
             type="checkbox"
