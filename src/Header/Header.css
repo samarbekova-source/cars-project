@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  padding-left: 15px;
+}
+
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.header-2 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
